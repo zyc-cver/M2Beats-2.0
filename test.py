@@ -10,7 +10,7 @@ def parse_args():
     parser.add_argument('--checkpoint', required=True, help="Checkpoint path to load the model from")
     parser.add_argument('--test', required=True, help="Test file path")
     parser.add_argument('--test_data', required=True, help="Test data dir")
-    parser.add_argument('--output_dir', default="results/eval", help="Output directory to save the test results")
+    parser.add_argument('--output_dir', default="results/test", help="Output directory to save the test results")
     return parser.parse_args()
 
 def get_model(checkpoint_path):

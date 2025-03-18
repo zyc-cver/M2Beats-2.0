@@ -22,7 +22,7 @@ pip install numpy==1.24.0 torch==1.12.1
 ```
 
 ## Model
-Download our pretrained model from [Google Drive](https://drive.google.com/your_model_link).
+Download our pretrained model from [Google Drive](https://drive.google.com/drive/folders/1DsTspcqAeyAo-SJl2rfyV4k_PWm3Haer?usp=sharing).
 
 ## Dataset
 Download our dataset from [Google Drive](https://drive.google.com/your_dataset_link).
@@ -39,13 +39,13 @@ Original video and motion data can be downloaded from [AIST++](https://google.gi
 ## Evaluation
 Run the following command to evaluate the model:
 ```bash
-python eval.py --checkpoint checkpoints/model.pth --test AIST_M2B_2/train_data_split.csv --test_data AIST_M2B_2/data_split
+python eval.py --checkpoint checkpoints/params.pt --test AIST_M2B_2/train_data_split.csv --test_data AIST_M2B_2/data_split
 ```
 
 ## Test
 ### Testing on Sample Data from the Dataset
 ```bash
-python test.py --checkpoint checkpoints/model.pth --test AIST_M2B_2/train_data_split.csv --test_data AIST_M2B_2/data_split
+python test.py --checkpoint checkpoints/params.pt --test AIST_M2B_2/train_data_split.csv --test_data AIST_M2B_2/data_split
 ```
 
 ### Testing on Your Own Data

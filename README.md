@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/zyc-cver/M2Beats-2.0/tree/main">
+  <a href="https://zyc-cver.github.io/M2Beats-2.0/">
     <img src="https://img.shields.io/badge/Project-Repo-orange?logo=git" alt="Project">
   </a>
 </p>
